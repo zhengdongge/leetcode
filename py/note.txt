@@ -1,0 +1,11 @@
+https://leetcode.com/problems/middle-of-the-linked-list/solution/
+while A[-1].next:
+    A.append(A[-1].next)
+return A[len(A) / 2]
+
+https://leetcode.com/problems/transpose-matrix/solution/
+矩阵转置
+#Alternative Solution:
+#return zip(*A)
+
+python 浅拷贝 深拷贝

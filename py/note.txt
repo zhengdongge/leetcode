@@ -9,3 +9,9 @@ https://leetcode.com/problems/transpose-matrix/solution/
 #return zip(*A)
 
 python 浅拷贝 深拷贝
+
+数组list a[i]就是从第i个元素开始到结尾
+
+join
+
+collections.Counter

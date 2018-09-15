@@ -17,3 +17,6 @@ format 字符串的格式函数
 
 collections.Counter
 A Counter is a dict subclass for counting hashable objects.
+
+dict 带指针的list
+http://blog.51cto.com/10616534/1942898

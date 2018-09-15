@@ -12,6 +12,8 @@ python 浅拷贝 深拷贝
 
 数组list a[i]就是从第i个元素开始到结尾
 
-join
+join 字符串的append
+format 字符串的格式函数
 
 collections.Counter
+A Counter is a dict subclass for counting hashable objects.

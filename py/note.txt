@@ -24,3 +24,5 @@ http://blog.51cto.com/10616534/1942898
 创建二维list
 2d_list = [[0 for col in range(9)] for row in range(9)]
 # 9*9的二维列表
+
+Enumerate()

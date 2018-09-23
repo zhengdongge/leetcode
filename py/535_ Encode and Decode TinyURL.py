@@ -1,19 +1,15 @@
 class Codec:
+    def __init__(self):
+        self.d = {}
+        self.r = {}
 
     def encode(self, longUrl):
-        """Encodes a URL to a shortened URL.
-
-        :type longUrl: str
-        :rtype: str
-        """
+        self.d[longUrl] = longUrl.__hash__()
+        self.r[longUrl.__hash__()] = longUrl
+        return longUrl.__hash__()
 
     def decode(self, shortUrl):
-        """Decodes a shortened URL to its original URL.
-
-        :type shortUrl: str
-        :rtype: str
-        """
-
+        return self.r[shortUrl]
 # Your Codec object will be instantiated and called as such:
 # codec = Codec()
 # codec.decode(codec.encode(url))

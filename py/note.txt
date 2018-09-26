@@ -26,3 +26,9 @@ http://blog.51cto.com/10616534/1942898
 # 9*9的二维列表
 
 Enumerate()
+
+def __init__(self):
+def __new__():
+两种不一样的初始方法
+
+__hash__
